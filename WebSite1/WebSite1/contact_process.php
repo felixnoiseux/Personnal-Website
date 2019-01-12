@@ -1,6 +1,7 @@
 <?php
 
-    $to = "rockybd1995@gmail.com";
+//TODO : Remplacer le courriel par le courriel du domaine
+    $to = "rap.felix@hotmail.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
@@ -13,7 +14,7 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "You have a message from your Bitmap Photography.";
+    $subject = "Message de FelixNoiseux.com";
 
     $logo = 'img/logo.png';
     $link = '#';
